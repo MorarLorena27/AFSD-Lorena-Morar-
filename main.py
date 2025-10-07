@@ -4,3 +4,4 @@ if __name__ == '__main__':
     print(878+9897)
     print(8745+987)
     print('Salut')
+    print(65+6)
