@@ -84,6 +84,34 @@ print("----------")
 for i in range(len(sir)):
     print(i, sir[i])
 #i e pozitia ,sir[i] e valoarea de la pozitia i
+#numaram cate vocale sunt intr-un sir
+sir="Azi este o zi frumoasa"
+vocale="aeiouAEIOU"
+numar_vocale=0
+for caracter in sir:
+    if caracter in vocale:
+        numar_vocale=numar_vocale+1  #sau mai simplu numar_vocale+=1
+print(numar_vocale)
+
+
+
+#pe ce pozitii s afla spatiile intr-un sir de caractere
+sir="Azi este o zi frumoasa"
+
+for pozitie in range(len(sir)):
+    if sir[pozitie]==" ":   #pozitie e indexul caracterului curent ,sir[pozitie].....
+        print("spatiu gasit pe pozitia:",pozitie)
+
+
+
+#afisam caracterele din sir pana intalnim un spatiu
+
+sir="Azi e o zi frumoasa"
+i=0
+while sir[i] !=" ":  #cat timp valoarea de la pozitia i nu e spatiu
+    print(sir[i])
+    i+=1  #i=i+1
+
 
 
 
